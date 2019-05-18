@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MYSQL_HOST": "localhost",
+    "MYSQL_USER": "root",
+    "MYSQL_DATABASE": "join_us_app",
+    "MYSQL_PASSWORD": "add_your_password_here"
+  }
+}
