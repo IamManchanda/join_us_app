@@ -3,28 +3,30 @@ body {
     text-align: center;
     text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
     color: rgb(66,69,86);
-    background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
+    background-image: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
-    font-weight: 100;
+    color: white;
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100%;
 }
 
 h1{
   margin: 0;
-  font-size: 500px;
+  font-size: 15rem;
   line-height: 400px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 p {
   margin: 0;
-  font-size: 50px;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .form {
@@ -48,6 +50,7 @@ button {
     background: rgba(255,255,255,1.0);
     border-radius: 5px;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 input[type=text]:focus {
